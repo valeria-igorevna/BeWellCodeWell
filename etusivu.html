@@ -22,7 +22,14 @@
         background-color: #e1dad3;
         box-sizing: border-box;
         font-family: 'Poiret One', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
     }
+
+    main {
+    flex: 1 0 auto;
+  }
 
     ul li a {
         font-size: 20px;
@@ -149,6 +156,7 @@ p, h5 {
             font-size: 15px;
         }
 
+
 </style>
 <body>
 <header>
@@ -188,7 +196,7 @@ p, h5 {
     </nav>
 <!--navi loppuu-->
 </header>
-
+<main>
 
     <div class="otsikko">
     <h1 class="center-align"><b>Be Well - Code Well</b></h1>
@@ -238,6 +246,7 @@ p, h5 {
     <a href="yhteystiedot.html" class="overlay" target="yhteystiedot.html">Ota Yhteyttä</a>
 </div>
 </div> 
+</main>
     <footer class="page-footer red lighten-3 center-align">
         <div class="container">
             <p class="footer-text">&copy;2024 Taitotalo</p>
