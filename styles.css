@@ -1,0 +1,132 @@
+        * {
+            font-size: 20px;
+            font-family: 'Poiret One', Sans-serif;
+        }        
+        .container {
+            margin-top: 50px;
+        }
+        .brand-logo img {
+            height: 60px;
+            display: block;
+            border-top-left-radius: 50% 50%; 
+            border-top-right-radius: 50% 50%; 
+            border-bottom-right-radius: 50% 50%; 
+            border-bottom-left-radius: 50% 50%;
+            padding: 5px;
+            margin: 5px;
+        }
+        html, body {
+            display: flex;
+            flex-direction: column;
+            background-color: #e1dad3;
+            min-height: 100vh;
+        }
+        main {
+            flex: 1 0 auto;
+            margin-top: 30px;
+        }
+        #mobile-nav {
+            background-color:#e1dad3;
+        }
+        h4 {
+            font-family: 'Poiret One', 'Sans-serif';
+            font-weight: bold;
+        }
+        p {
+            font-family: 'Poiret One', 'Sans-serif';
+            font-weight: bold;
+            font-size: 16px;
+        }
+        nav {
+            background-color: #F44336; 
+        }
+        #nav-wrapper {
+            font-weight: bold;
+        }
+        .content {
+            flex: 1; /*Footeria alaspäin*/
+            padding-top: 3%;
+            margin: 5px;
+        }
+        .social-icons {
+            display: flex;
+            align-items:flex-start; /*Horisontaalinen keskitys*/
+            gap: 20px; /*Ikonien välistys*/
+            margin-top: 20px;
+        }
+        .social-icons a {
+            font-size: 30px; 
+            color: #000000;
+            padding-top: 40px;
+        }
+        .social-icons a:hover {
+            color: #8d8c8c; 
+        }
+
+        @media (max-width: 600px) {
+            footer.page-footer {
+                font-size: 14px;
+            }
+        }
+        /*Hampparimenu*/
+        .sidenav-trigger i.material-icons {
+            font-size: 36px;
+            color: white;
+        }        
+        /*Ei toimi*/
+        .input-field {
+            font-weight: bold;
+            font-size:20px;
+            color: black;
+        }
+        .contact-info i {
+            margin-right: 10px; /*Ikonin ja tekstin välistys*/
+            color: #000000;
+        }
+        .contact-info p {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .company-info {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .company-info i {
+            font-size: 30px;
+            color: #2196F3;
+            margin-right: 15px;
+        }
+        .company-info p {
+            margin: 0;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .row {
+            justify-content: auto;
+        }
+        .col.m12.l6 {
+            margin: 0px 150px; /*Kolumnien välistys*/
+            margin-bottom: 25px;
+            align-items: left;
+        }
+        .col.s12 {
+            margin-left: 60px;
+        }
+        .contact-container {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .contact-info,
+        .social-icons {
+            justify-content: left;
+            margin-bottom: 20px;
+        }
+        .footer-text {
+            font-size: 15px;
+            margin: auto;
+            width: 50%;
+        }
+
